@@ -12,13 +12,17 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>La mia prima app con Vite!🔩</h1>
-
+    <img src="../assets/jumbotron.jpg" alt="">
+    
+    <button>Scopri di più</button>
   
 </template>
 
 <style scoped>
-h1 {
-  color: #41B883;
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: #FFC61E;
+    color: #BD34FE;
 }
 </style>

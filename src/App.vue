@@ -1,8 +1,10 @@
-<script setup>
-import AppTitle from './components/AppTitle.vue'
+<script>
+import AppTitle from './components/AppTitle.vue';
+import Jumbotron from './components/Jumbotron.vue';
 </script>
 
 <template>
+  <AppTitle/>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -11,7 +13,7 @@ import AppTitle from './components/AppTitle.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <AppTitle/>
+  <Jumbotron/>
 </template>
 
 <style scoped>
