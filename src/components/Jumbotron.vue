@@ -5,10 +5,7 @@ Bonus:
 Creare un secondo componente AppHero, che visualizza un jumbotron. -->
 
 <script>
-import { ref } from 'vue'
 
-
-const count = ref(0)
 </script>
 
 <template>
@@ -19,7 +16,14 @@ const count = ref(0)
 </template>
 
 <style scoped>
+img{
+    width: 80vh;
+    height: 40vh;
+}
+
 button {
+    display: block;
+    margin: 20px auto;
     border: none;
     border-radius: 10px;
     background-color: #FFC61E;
